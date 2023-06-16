@@ -6,8 +6,14 @@ $("nav").css("display", 'flex')
     .css('color', 'white')
     .css("background-color", '#656565')
     .css('padding', '50px');
-
     ;
+
+$(".img div").hover(function(){
+    $(this).css("opacity", "50%");
+    }, 
+    function(){
+    $(this).css("opacity", "100%");
+  });
 
 $("nav .logo").css("margin-top", '15px')
     .css('color', "#da491c");
@@ -38,7 +44,8 @@ $('.firstSection').css("background-color", '#656565')
 
 $('.firstSection h1 span').css("color", '#da491c');
 $('.firstSection h1').css("border-bottom", '2px solid #da491c')
-    .css("width", "fit-content");
+    .css("width", "fit-content")
+    .css("font-family", 'raleway');
 
 $('.firstSection p').css("font-size", '22px');
 
@@ -56,7 +63,9 @@ $('.secondSection div').css('width', '500px')
 
 $('.thirdSection h2').css('color', '#da491c')
     .css('padding', '5px')
-    .css('border-left', "3px solid ");
+    .css('border-left', "3px solid ")
+    .css("font-family", 'raleway');
+    ;
 
 $('.thirdSection p').css('font-size', '20px');
 $('.thirdSection').css('margin-top', '50px')
@@ -78,7 +87,9 @@ $(".thirdSection img").css('width', '200px')
 
 $('.thirdSection1 h2').css('color', '#da491c')
     .css('padding', '5px')
-    .css('border-left', "3px solid ");
+    .css('border-left', "3px solid ")
+    .css("font-family", 'raleway');
+    ;
 
 
 $(".thirdSection1 img").css('margin', '20px');
